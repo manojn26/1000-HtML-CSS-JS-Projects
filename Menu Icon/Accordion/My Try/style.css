@@ -1,0 +1,30 @@
+.section-1,
+.section-2,
+.section-3 {
+  background-color: antiquewhite;
+  margin-bottom: 0;
+}
+/*
+visibility:hidden hides the element, but it still takes up space in the layout. display:none removes the element from the document. It does not take up any space
+*/
+.sec-one,
+.sec-two,
+.sec-three {
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+  display: none;
+  transition: all 0.4s ease;
+}
+
+span {
+  font-size: 20px;
+}
+
+.icon-one,
+.icon-two,
+.icon-three {
+  margin-left: 200px;
+  font-weight: bold;
+  cursor: pointer;
+}

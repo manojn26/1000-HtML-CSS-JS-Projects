@@ -1,0 +1,26 @@
+.menu {
+  border: 2px solid red;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu .container div {
+  width: 35px;
+  height: 5px;
+  background: #000;
+  margin: 6px 0;
+  transition: all 0.4s;
+}
+
+.change.bar-1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change.bar-2 {
+  opacity: 0;
+}
+
+.change.bar-3 {
+  transform: translate(0, -11px) rotate(45deg);
+}

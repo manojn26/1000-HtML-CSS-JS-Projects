@@ -1,0 +1,14 @@
+.menu {
+  border: 2px solid red;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu .menu-container div {
+  width: 35px;
+  height: 5px;
+  background: #000;
+  margin: 6px 0;
+}

@@ -1,0 +1,18 @@
+.icon-bar {
+  width: 100%;
+  background: #555;
+  display: flex;
+  justify-content: space-between;
+}
+.icon-bar a {
+  padding: 15px;
+  color: white;
+  font-size: 30px;
+  transition: all 0.2s ease;
+}
+.icon-bar a:hover {
+  background: #000;
+}
+.active {
+  background: palevioletred;
+}
